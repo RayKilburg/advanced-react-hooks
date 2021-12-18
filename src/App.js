@@ -1,9 +1,9 @@
-
+import UseRefExample from './components/UseRefExample';
 
 function App() {
   return (
     <div className="App">
-       <h1>sup yall</h1>
+      <UseRefExample />
     </div>
   );
 }
