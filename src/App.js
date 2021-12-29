@@ -10,6 +10,7 @@ import UseCallbackExample from './components/UseCallbackExample';
 import CustomHookExample1 from './components/CustomHookExample1';
 import CustomHookExample2 from './components/CustomHookExample2';
 import ApiCallExample from './components/ApiCallExample';
+import FetchApiCall from './components/FetchApiCall';
 
 function App() {
   return (
@@ -33,6 +34,7 @@ function App() {
             element={<CustomHookExample2 />}
           />
           <Route path="/api-call-example" element={<ApiCallExample />} />
+          <Route path="/fetch-api-call-example" element={<FetchApiCall />} />
         </Routes>
       </div>
     </Router>

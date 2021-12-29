@@ -65,6 +65,12 @@ function Home() {
         >
           API Call - useState / useEffect
         </Link>
+        <Link
+          className='list-group-item list-group-item-action'
+          to='fetch-api-call-example'
+        >
+          Fetch API Call - useState / useEffect
+        </Link>
       </ul>
     </>
   )
