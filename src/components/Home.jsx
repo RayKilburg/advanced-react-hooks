@@ -4,12 +4,18 @@ function Home() {
   return (
     <>
       <h2 className='mb-3'>React Hooks Sandbox</h2>
-      <ul class='list-group'>
+      <ul className='list-group'>
       <Link
           className='list-group-item list-group-item-action'
           to='usestate-counter'
         >
           useState Example Counter
+        </Link>
+        <Link
+          className='list-group-item list-group-item-action'
+          to='add-delete-items'
+        >
+          useState Example Add and Delete Items
         </Link>
         <Link
           className='list-group-item list-group-item-action'
