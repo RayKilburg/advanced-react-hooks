@@ -59,6 +59,12 @@ function Home() {
         >
           Custom Hook - useLocalStorage()
         </Link>
+        <Link
+          className='list-group-item list-group-item-action'
+          to='api-call-example'
+        >
+          API Call - useState / useEffect
+        </Link>
       </ul>
     </>
   )

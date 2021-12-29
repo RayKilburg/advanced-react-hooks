@@ -9,6 +9,7 @@ import UseMemoExample from './components/UseMemoExample';
 import UseCallbackExample from './components/UseCallbackExample';
 import CustomHookExample1 from './components/CustomHookExample1';
 import CustomHookExample2 from './components/CustomHookExample2';
+import ApiCallExample from './components/ApiCallExample';
 
 function App() {
   return (
@@ -31,6 +32,7 @@ function App() {
             path="/custom-hook-example-2"
             element={<CustomHookExample2 />}
           />
+          <Route path="/api-call-example" element={<ApiCallExample />} />
         </Routes>
       </div>
     </Router>
