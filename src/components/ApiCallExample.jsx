@@ -4,6 +4,7 @@ import axios from 'axios'
 function ApiCallExample() {
     const [data, setData] = useState([]);
 
+    // get data from api
     const fetchData = async () => {
         const { data } = await axios.get("https://jsonplaceholder.typicode.com/posts/1/comments");
         setData(data)
@@ -18,6 +19,8 @@ function ApiCallExample() {
     return (
         <div>
             <ul>
+            <h1>Getting API data with axios</h1>
+            <br />
                 {data.map((item) => {
                     return (
                         <>
